@@ -3,7 +3,7 @@
     "title": "PuneBusRouting Simulation",
     "role": "Algorithm Architecture",
     "summary": "A transit routing simulation application engineered to calculate optimal travel paths across Pune.",
-    "github": "https://github.com/yourusername/PuneBusRouting",
+    "github": "https://github.com/YagnamJoshi/PuneBusRouting",
     "tech": "C++, Qt Framework, Dijkstra's Algorithm",
     "bullets": [
       "Developed a transit routing simulation application using C++ to calculate optimal travel paths across Pune.",
@@ -12,10 +12,10 @@
     ]
   },
   {
-    "title": "Audio Profile Data Mining",
+    "title": "AI playlist analyzer",
     "role": "Data Science",
     "summary": "Analyzed a dataset of 114,000 Spotify tracks, applying clustering and association rule learning to map audio relationships.",
-    "github": "https://github.com/yourusername/spotify-mining",
+    "github": "https://github.com/YagnamJoshi/ai-playlist-analyser",
     "tech": "Python, Machine Learning, K-Means, Apriori",
     "bullets": [
       "Analyzed a dataset of 114,000 Spotify tracks utilizing Python for comprehensive data mining.",
@@ -27,7 +27,7 @@
     "title": "Orbital Invasion: Protocol",
     "role": "Game Developer",
     "summary": "An arcade-style game engine implementing advanced pathfinding logic for enemy entity navigation.",
-    "github": "https://github.com/yourusername/orbital-invasion",
+    "github": "https://github.com/YagnamJoshi/oribital_invasion_energy_protocol",
     "tech": "JavaScript, Godot, A* Algorithm, Data Structures",
     "bullets": [
       "Built an arcade-style game engine implementing advanced pathfinding logic for enemy entity navigation.",

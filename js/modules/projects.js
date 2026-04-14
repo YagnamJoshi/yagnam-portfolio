@@ -25,7 +25,7 @@ export async function initProjects() {
                     ${techTags}
                 </div>
                 <div class="project-links">
-                    ${proj.github ? `<a href="${proj.github}" target="_blank" class="btn-secondary link-btn">View Code</a>` : ''}
+                    ${proj.github ? `<a href="${proj.github}" target="_blank" class="btn-secondary link-btn">Got to repository</a>` : ''}
                 </div>
             `;
             
