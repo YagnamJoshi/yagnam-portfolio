@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yagnam Joshi | Full-Spectrum Technologist</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://unpkg.com/force-graph"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">YJ_<span class="blink">|</span></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Architecture</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div id="cli-container" class="hidden">
+        <div class="cli-header">
+            <span>Terminal</span>
+            <button id="close-cli">×</button>
+        </div>
+        <div id="cli-output"></div>
+        <div class="cli-input-line">
+            <span class="prompt">yagnam@server:~$</span>
+            <input type="text" id="cli-input" autocomplete="off">
+        </div>
+    </div>
+
+    <main id="app">
+        
+        <section id="hero">
+            <div class="hero-content">
+                <span class="badge">Hello, World.</span>
+                <h1>I'm <span class="highlight">Yagnam Joshi.</span><br>Full-Spectrum Technologist.</h1>
+                <p class="hero-subtitle">
+                    I bridge the gap between heavy algorithmic architecture and seamless interactive web experiences. 
+                    From C++ transit routing to Python data clustering and game development.
+                </p>
+                <div class="hero-actions">
+                    <button id="toggle-cli" class="btn-primary">Initialize CLI</button>
+                    <button id="generate-pdf" class="btn-secondary">Download Resume</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="split-section">
+            <div class="text-block">
+                <h2>System <span class="highlight">Architecture</span></h2>
+                <p>I am a software architect focused on building intelligent, scalable systems. My expertise lies in translating complex logic—like pathfinding algorithms and data clustering—into robust applications.</p>
+                <p>Interact with the node graph to view the connections between my core technologies, languages, and frameworks.</p>
+            </div>
+            <div id="skill-tree-container">
+                <div id="graph-canvas"></div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-header">
+                <h2>Deployed <span class="highlight">Logic</span></h2>
+                <p>A collection of simulations, algorithms, and applications.</p>
+            </div>
+            <div id="projects-grid" class="grid-layout">
+                </div>
+        </section>
+        
+        <section id="contact" class="section-header">
+            <h2>Establish <span class="highlight">Connection</span></h2>
+            <p>Ready to collaborate on complex systems and interactive designs?</p>
+            <div class="hero-actions" style="justify-content: center; margin-top: 2rem;">
+                <a href="mailto:yagnam@example.com"><button class="btn-primary">Initialize Contact Protocol</button></a>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

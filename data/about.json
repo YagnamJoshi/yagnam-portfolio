@@ -1,0 +1,48 @@
+{
+  "profile": {
+    "name": "Yagnam Joshi",
+    "phone": "+91-7984374916",
+    "email": "joshiyagnam@outlook.com",
+    "linkedin": "linkedin.com/in/yagnam-joshi",
+    "github": "github.com/YagnamJoshi"
+  },
+  "summary": "Software Developer skilled in Python, C++, and Data Structures with experience building scalable applications, intelligent routing algorithms, and machine learning models. Proven ability to optimize processes and deliver high-performance interactive systems.",
+  "skills": {
+    "Languages": "Python, C++, JavaScript",
+    "Frameworks & Libraries": "React, Node.js, Qt Framework, Flask",
+    "Concepts & Algorithms": "Data Structures, Algorithms, OOP, Machine Learning, K-Means Clustering, Pathfinding (A*, Dijkstra)",
+    "Tools": "Git, Docker, REST APIs"
+  },
+  "experience": [
+    {
+      "role": "Research Intern",
+      "company": "MIT WPU AI Research Centre",
+      "location": "Pune, Maharashtra",
+      "duration": "Jan 2025 - Mar 2025",
+      "bullets": [
+        "Contributed to candidate optimization models, improving algorithmic efficiency for minimization problems.",
+        "Implemented data processing pipelines using Python and Machine Learning frameworks."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering (AI & DS)",
+      "institution": "MIT World Peace University",
+      "location": "Pune",
+      "duration": "Expected 2028",
+      "details": "Direct Second Year Admission | Current CGPA: 9.19"
+    },
+    {
+      "degree": "Diploma in Computer Science and Engineering (AI & DS)",
+      "institution": "MIT World Peace University",
+      "location": "Pune",
+      "duration": "2022 - 2025",
+      "details": "CGPA: 9.1"
+    }
+  ],
+  "certifications": [
+    "Machine Learning",
+    "Data Structures & Algorithms"
+  ]
+}

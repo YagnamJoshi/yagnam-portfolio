@@ -1,0 +1,37 @@
+[
+  {
+    "title": "PuneBusRouting Simulation",
+    "role": "Algorithm Architecture",
+    "summary": "A transit routing simulation application engineered to calculate optimal travel paths across Pune.",
+    "github": "https://github.com/yourusername/PuneBusRouting",
+    "tech": "C++, Qt Framework, Dijkstra's Algorithm",
+    "bullets": [
+      "Developed a transit routing simulation application using C++ to calculate optimal travel paths across Pune.",
+      "Engineered the core architecture, leading Qt Framework development and algorithm planning.",
+      "Implemented Dijkstra's algorithm to significantly improve route calculation speeds and accuracy."
+    ]
+  },
+  {
+    "title": "Audio Profile Data Mining",
+    "role": "Data Science",
+    "summary": "Analyzed a dataset of 114,000 Spotify tracks, applying clustering and association rule learning to map audio relationships.",
+    "github": "https://github.com/yourusername/spotify-mining",
+    "tech": "Python, Machine Learning, K-Means, Apriori",
+    "bullets": [
+      "Analyzed a dataset of 114,000 Spotify tracks utilizing Python for comprehensive data mining.",
+      "Implemented K-Means clustering to map audio relationships and categorize acoustic profiles.",
+      "Applied Apriori and FP-growth association rule learning to discover listening patterns."
+    ]
+  },
+  {
+    "title": "Orbital Invasion: Protocol",
+    "role": "Game Developer",
+    "summary": "An arcade-style game engine implementing advanced pathfinding logic for enemy entity navigation.",
+    "github": "https://github.com/yourusername/orbital-invasion",
+    "tech": "JavaScript, Godot, A* Algorithm, Data Structures",
+    "bullets": [
+      "Built an arcade-style game engine implementing advanced pathfinding logic for enemy entity navigation.",
+      "Utilized A* Algorithm, BFS, and UCS to optimize real-time routing logic on the grid."
+    ]
+  }
+]

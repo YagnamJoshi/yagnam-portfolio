@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {"id": "Yagnam", "group": 0, "val": 30},
+    
+    {"id": "Systems Logic", "group": 1, "val": 20},
+    {"id": "C++", "group": 1, "val": 15},
+    {"id": "Qt Framework", "group": 1, "val": 15},
+    {"id": "Dijkstra / A*", "group": 1, "val": 15},
+    
+    {"id": "Data Science", "group": 2, "val": 20},
+    {"id": "Python", "group": 2, "val": 15},
+    {"id": "Machine Learning", "group": 2, "val": 15},
+
+    {"id": "Hardware / IoT", "group": 3, "val": 20},
+    {"id": "Arduino", "group": 3, "val": 15},
+    {"id": "ESP32", "group": 3, "val": 15},
+
+    {"id": "Web & Interactive", "group": 4, "val": 20},
+    {"id": "Godot", "group": 4, "val": 15},
+    {"id": "JavaScript", "group": 4, "val": 15}
+  ],
+  "links": [
+    {"source": "Yagnam", "target": "Systems Logic"},
+    {"source": "Yagnam", "target": "Data Science"},
+    {"source": "Yagnam", "target": "Web & Interactive"},
+    {"source": "Yagnam", "target": "Hardware / IoT"},
+
+    {"source": "Systems Logic", "target": "C++"},
+    {"source": "Systems Logic", "target": "Qt Framework"},
+    {"source": "Systems Logic", "target": "Dijkstra / A*"},
+
+    {"source": "Data Science", "target": "Python"},
+    {"source": "Data Science", "target": "Machine Learning"},
+
+    {"source": "Web & Interactive", "target": "Godot"},
+    {"source": "Web & Interactive", "target": "JavaScript"},
+    {"source": "Web & Interactive", "target": "Dijkstra / A*"},
+
+    {"source": "Hardware / IoT", "target": "Arduino"},
+    {"source": "Hardware / IoT", "target": "ESP32"}
+  ]
+}
